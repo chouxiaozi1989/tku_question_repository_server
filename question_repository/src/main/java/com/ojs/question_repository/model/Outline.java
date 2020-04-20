@@ -73,5 +73,8 @@ public class Outline implements Serializable {
      */
       private String belongdept;
 
-
+      /**
+       * 包含知识点个数
+       */
+      private int kpnum;
 }

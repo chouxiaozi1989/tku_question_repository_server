@@ -16,9 +16,9 @@ public class InterceptorConfig extends WebMvcConfigurationSupport {
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         super.addInterceptors(registry);
-        registry.addInterceptor(tokenInterceptor)
-                .addPathPatterns("/api/**")
-                .addPathPatterns(logPathPatterns)
-                .excludePathPatterns(excludePathPatterns);
+//        registry.addInterceptor(tokenInterceptor)
+//                .addPathPatterns("/api/**")
+//                .addPathPatterns(logPathPatterns)
+//                .excludePathPatterns(excludePathPatterns);
     }
 }
